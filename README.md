@@ -41,3 +41,15 @@ POST : https://appapi2.test.bankid.com/rp/v4
 	</soapenv:Body>
 </soapenv:Envelope>
 ```
+
+# Response ( if user still not authenticated )
+
+```
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:CollectResponse xmlns:ns2="http://bankid.com/RpService/v4.0.0/types/">
+            <progressStatus>OUTSTANDING_TRANSACTION</progressStatus>
+        </ns2:CollectResponse>
+    </soap:Body>
+</soap:Envelope>
+```
