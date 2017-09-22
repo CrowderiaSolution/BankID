@@ -15,14 +15,6 @@ POST : https://appapi2.test.bankid.com/rp/v4
 </soapenv:Envelope>
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://bankid.com/RpService/v4.0.0/types/">
-	<soapenv:Header />
-	<soapenv:Body >
-		<typ:orderRef >72993e89-3bf9-4c80-baa3-b100d2183c3b</typ:orderRef>
-	</soapenv:Body>
-</soapenv:Envelope>
-
-
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://bankid.com/RpService/v4.0.0/types/">
 	<soapenv:Header/>
 	<soapenv:Body>
 		<typ:AuthenticateRequest>
