@@ -5,6 +5,8 @@ POST : https://appapi2.test.bankid.com/rp/v4
 
 # Reference : 
   https://www.bankid.com/assets/bankid/rp/bankid-relying-party-guidelines-v2.15.pdf
+  https://www.bankid.com/bankid-i-dina-tjanster/rp-info
+  
   
 ```
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://bankid.com/RpService/v4.0.0/types/">
