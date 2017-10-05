@@ -1,8 +1,17 @@
-import http from 'http';
+import { app } from './web'
+import { Server } from './config'
 
-http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(1337, () => {
-  console.log('Server running at 1377');
-});
+// import DB from './config/components/database'
+
+app.listen(Server.PORT, err => {
+  if (err) {
+    console.error(err)
+  } else {
+    console.log(`App listen to port: ${Server.PORT}`)
+  }
+})
+
+// graceful shutdown
+process.on('SIGTERM', () => {
+  // desconect radis and other services
+})

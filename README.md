@@ -1,7 +1,31 @@
 # BankID
 Swedish bank Id implementation
 
-POST : https://appapi2.test.bankid.com/rp/v4
+## Docs
+
+1. [Features](#features)
+1. [BankID](#bankid)
+1. **Before you start**
+   1. [VsCode Configaration](/docs/vscode_config.md)
+   1. [Babel Configaration](/docs/bable_config.md)
+   1. [Understanding the File Structure](#understanding-the-file-structure)
+1. **Using Template**
+   1. [Renaming the App from New](/docs/renaming.md)
+   1. [Routing / Navigating](/src/navigation/README.md)
+   1. [Testing](/docs/testing.md)
+1. [Contributing](/docs/contributing.md)
+1. [Licence](LICENSE)
+
+
+## Features
+
+| Feature | Summary |
+| --- | --- |
+
+# BankID
+Post Endpoint
+
+`POST : https://appapi2.test.bankid.com/rp/v4`
 
 # Reference : 
   https://www.bankid.com/assets/bankid/rp/bankid-relying-party-guidelines-v2.15.pdf
